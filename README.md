@@ -2,7 +2,7 @@
 + ######The functions of this demo contains:
   * Draw concentric circle in the screen.
   * Put a image above the concentric circle.
-  * Redraw the concentric circle: when user touche the screen,the color of the concentric circle change.
+  * Redraw the concentric circle: when users touched the screen,the color of the concentric circle changed.
   <br>
   _Note:redraw the view using the code:_
   `[self setNeedsDisplay];`
