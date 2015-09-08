@@ -10,10 +10,11 @@
 		7AD8DB791B9E916100D4CC0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD8DB781B9E916100D4CC0E /* main.m */; };
 		7AD8DB7C1B9E916100D4CC0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD8DB7B1B9E916100D4CC0E /* AppDelegate.m */; };
 		7AD8DB7F1B9E916100D4CC0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD8DB7E1B9E916100D4CC0E /* ViewController.m */; };
-		7AD8DB821B9E916100D4CC0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD8DB801B9E916100D4CC0E /* Main.storyboard */; };
 		7AD8DB841B9E916100D4CC0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AD8DB831B9E916100D4CC0E /* Images.xcassets */; };
-		7AD8DB871B9E916100D4CC0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AD8DB851B9E916100D4CC0E /* LaunchScreen.xib */; };
 		7AD8DB931B9E916100D4CC0E /* CircleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD8DB921B9E916100D4CC0E /* CircleViewTests.m */; };
+		7AD8DB9D1B9E91BD00D4CC0E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD8DB9C1B9E91BD00D4CC0E /* Default-568h@2x.png */; };
+		7AD8DBA01B9E925400D4CC0E /* GDYCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AD8DB9F1B9E925400D4CC0E /* GDYCircleView.m */; };
+		7AD8DBA21B9EC05C00D4CC0E /* longmao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AD8DBA11B9EC05C00D4CC0E /* longmao@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +35,14 @@
 		7AD8DB7B1B9E916100D4CC0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7AD8DB7D1B9E916100D4CC0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7AD8DB7E1B9E916100D4CC0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7AD8DB811B9E916100D4CC0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AD8DB831B9E916100D4CC0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7AD8DB861B9E916100D4CC0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7AD8DB8C1B9E916100D4CC0E /* CircleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD8DB911B9E916100D4CC0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AD8DB921B9E916100D4CC0E /* CircleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleViewTests.m; sourceTree = "<group>"; };
+		7AD8DB9C1B9E91BD00D4CC0E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7AD8DB9E1B9E925400D4CC0E /* GDYCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDYCircleView.h; sourceTree = "<group>"; };
+		7AD8DB9F1B9E925400D4CC0E /* GDYCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDYCircleView.m; sourceTree = "<group>"; };
+		7AD8DBA11B9EC05C00D4CC0E /* longmao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "longmao@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		7AD8DB6A1B9E916100D4CC0E = {
 			isa = PBXGroup;
 			children = (
+				7AD8DBA11B9EC05C00D4CC0E /* longmao@2x.png */,
+				7AD8DB9C1B9E91BD00D4CC0E /* Default-568h@2x.png */,
 				7AD8DB751B9E916100D4CC0E /* CircleView */,
 				7AD8DB8F1B9E916100D4CC0E /* CircleViewTests */,
 				7AD8DB741B9E916100D4CC0E /* Products */,
@@ -85,10 +90,10 @@
 				7AD8DB7B1B9E916100D4CC0E /* AppDelegate.m */,
 				7AD8DB7D1B9E916100D4CC0E /* ViewController.h */,
 				7AD8DB7E1B9E916100D4CC0E /* ViewController.m */,
-				7AD8DB801B9E916100D4CC0E /* Main.storyboard */,
 				7AD8DB831B9E916100D4CC0E /* Images.xcassets */,
-				7AD8DB851B9E916100D4CC0E /* LaunchScreen.xib */,
 				7AD8DB761B9E916100D4CC0E /* Supporting Files */,
+				7AD8DB9E1B9E925400D4CC0E /* GDYCircleView.h */,
+				7AD8DB9F1B9E925400D4CC0E /* GDYCircleView.m */,
 			);
 			path = CircleView;
 			sourceTree = "<group>";
@@ -199,9 +204,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AD8DB821B9E916100D4CC0E /* Main.storyboard in Resources */,
-				7AD8DB871B9E916100D4CC0E /* LaunchScreen.xib in Resources */,
 				7AD8DB841B9E916100D4CC0E /* Images.xcassets in Resources */,
+				7AD8DBA21B9EC05C00D4CC0E /* longmao@2x.png in Resources */,
+				7AD8DB9D1B9E91BD00D4CC0E /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +227,7 @@
 				7AD8DB7F1B9E916100D4CC0E /* ViewController.m in Sources */,
 				7AD8DB7C1B9E916100D4CC0E /* AppDelegate.m in Sources */,
 				7AD8DB791B9E916100D4CC0E /* main.m in Sources */,
+				7AD8DBA01B9E925400D4CC0E /* GDYCircleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +248,6 @@
 			targetProxy = 7AD8DB8D1B9E916100D4CC0E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		7AD8DB801B9E916100D4CC0E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7AD8DB811B9E916100D4CC0E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7AD8DB851B9E916100D4CC0E /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7AD8DB861B9E916100D4CC0E /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7AD8DB941B9E916100D4CC0E /* Debug */ = {

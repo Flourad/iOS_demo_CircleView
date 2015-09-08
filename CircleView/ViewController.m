@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GDYCircleView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    CGRect circleFrame = self.view.bounds;
+    GDYCircleView *circleView = [[GDYCircleView alloc] initWithFrame:circleFrame];
+    
+    circleView.backgroundColor = [UIColor clearColor];
+    [self.view addSubview:circleView];
 }
 
 - (void)didReceiveMemoryWarning {
